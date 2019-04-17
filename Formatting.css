@@ -1,0 +1,109 @@
+/*Color scheme - dominant: f76767 (pale red); accent 1: f78b67 (pastel orange); accent 2: f767af (pink) */
+
+ul {
+	/*navigation bar */
+	top: 0%;
+	width: 100%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #f767af;
+}
+
+li {
+	float: left;
+	font-family: 'Advent Pro';
+	line-height: 1.6;
+	font-size: 40px;
+}
+
+li a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #000000;
+	color: white;
+}
+
+h1 {
+	font-family: 'Advent Pro';
+	line-height: 1.6;
+	text-align: center;
+	font-size: 50px;
+}
+
+h2 {
+	font-family: 'Advent Pro';
+	line-height: 1.6;
+	text-align: center;
+	font-size: 40px;
+}
+
+body {
+	background-image: linear-gradient(to bottom right, #f76767, #ff956f);
+}
+
+.column {
+	float: left;
+	padding: 10px;
+}
+
+.column.left {
+	width: 70%;
+} 
+
+.column.right {
+	border-style: double;
+	width: 25%;
+}
+
+.row:after {
+	content = '';
+	display: table;
+	clear: both;
+}
+
+@media screen and (max-width: 600px) {
+	.column.left, .column.right {
+		width: 100%;
+	}
+}
+
+p {
+	font-family: 'Advent Pro';
+	line-height: 1.6;
+	font-size: 20px;
+}
+
+.popLinks {
+	font-family: 'Advent Pro';
+	line-height: 1.6;
+	font-size: 30px;
+	text-align: end;
+}	
+
+.contact {
+	font-family: 'Advent Pro';
+	line-height: 1.6;
+	font-size: 30px;
+}
+
+.line {
+	border-left: 5px black;
+	height: 500px;
+}
+
+.footer {
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: black;
+	text-align: center;
+	color: white;
+}
