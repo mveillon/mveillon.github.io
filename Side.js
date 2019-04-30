@@ -1,11 +1,11 @@
 function setPreview() {
-	let text = 'I learned the other day that there are people in this world who will lie in bed and eat toast.';
+	let text = 'Listen friends. This is so so important to me, and even though we do talk about it, I don’t think we talk about it as thoroughly as I would like.';
 	document.getElementById('preview').innerHTML = text;
 }
 
 function setLink() {
-	let title = 'Toast in Bed';
-	let link = title.link('toast-in-bed.html');
+	let title = '6 guidelines to the art of saying no';
+	let link = title.link('guidelines-to-no.html');
 	document.getElementById('link').innerHTML = link;
 }
 
