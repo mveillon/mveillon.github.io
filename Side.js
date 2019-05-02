@@ -21,6 +21,6 @@ function setPreview2() {
 }
 
 function setFooter() {
-	let text = "This blog belongs to Dominique Salman. Please don't steal it. This blog is published using GitHub pages. This site is under construction and not yet complete.";
+	let text = "This blog is written entirely by Dominique Salman and published using GitHub Pages.";
 	document.getElementById('footer').innerHTML = text;
 }
